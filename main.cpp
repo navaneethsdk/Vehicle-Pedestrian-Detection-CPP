@@ -32,7 +32,9 @@ int main() {
 
         // Detect cars
         detectCars(frame, carCascade);
+        // Detect Pedestrians
         detectPedestrians(frame, pedCascade);
+        // Detect Bikes
         detectBikes(frame, bikeCascade);
 
         // Press  ESC on keyboard to exit
